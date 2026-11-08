@@ -14,15 +14,15 @@ else:
 city=input("City :").lower().strip()
 if city=="newyork":
   print("Newyork")
-elif city=="losAngeles":
+elif city=="los angeles":
   print("Los Angeles")
 elif city=="phoenix":
   print("Phoenix")
 elif city=="austin":
   print("Austin")
 else:
-  print("Chicago")
+  print(city.title())
 
-  print("🤒 Symptoms & Health Info")
+print("🤒 Symptoms & Health Info")
 print("Select all symptoms you're experiencing:")
 print("Choose an option") 
